@@ -1,0 +1,8 @@
+epochs: 100
+
+warmup:
+  warmup: 10
+  hold: 5
+  start_lr: 0.001   # 1e-3
+  target_lr: 0.0001 # 1e-4
+  alpha: 0.001      # 1e-3
